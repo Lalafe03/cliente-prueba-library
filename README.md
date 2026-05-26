@@ -60,9 +60,11 @@ src/
 
 ```bash
 npm run dev
-Se abre en http://localhost:5173.
-
 ```
+
+Se abre en `http://localhost:5173`.
+
+
 
 ## Storybook
 
