@@ -1,6 +1,6 @@
-# [Nombre del Proyecto] — UI Kit
+# Librería - cliente prueba
 
-Este repositorio contiene la implementación del sistema de diseño para **[Nombre del Proyecto]**, construido sobre **Tropikux UI**, una librería de componentes React basada en tokens CSS.
+Este repositorio contiene la implementación del sistema de diseño para **[cliente prueba]**, construido sobre **Tropikux UI**, una librería de componentes React basada en tokens CSS.
 
 > Este proyecto está completamente configurado y listo para usar. Solo necesitas instalar las dependencias y correr el proyecto. Todo el sistema de componentes, tokens de diseño y documentación interactiva ya está incluido.
 
