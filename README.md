@@ -56,6 +56,14 @@ src/
 └── components/                   ← componentes extra específicos de este proyecto y archivos para visualización en storybook
 ```
 
+## Abrir proyecto en el navegador
+
+```bash
+npm run dev
+Se abre en http://localhost:5173.
+
+```
+
 ## Storybook
 
 Storybook es la herramienta de documentación interactiva de este proyecto. Aquí puedes ver y probar todos los componentes disponibles con el tema visual del proyecto ya aplicado.
