@@ -1,7 +1,7 @@
 :root {
   /* ----- COLORS ----- */
 
-  /* ----- PRIMARY ----- */
+  /* ----- PRIMARY (royal-blue) ----- */
   --global-primary-100: #00224f;
   --global-primary-90: #003478;
   --global-primary-80: #0046a0;
@@ -13,9 +13,9 @@
   --global-primary-20: #b9d7ff;
   --global-primary-10: #e6f1ff;
   --global-primary-5: #f1f7fe;
-  --global-primary-90-A30: #0034784d;
+  --global-primary-90-A30: #056cf24d;
 
-  /* ----- SECONDARY ----- */
+  /* ----- SECONDARY (teal-dark-blue) ----- */
   --global-secondary-100: #0f4c5c;
   --global-secondary-90: #1f6a7e;
   --global-secondary-80: #348aa0;
@@ -28,7 +28,7 @@
   --global-secondary-10: #f4fcff;
   --global-secondary-5: #fafeff;
   --global-secondary-10-A40: #f4fcff66;
-  --global-secondary-100-A70: #4faac2b3;
+  --global-secondary-100-A70: #0f4c5cb2;
 
   /* ----- TERTIARY ----- */
   --global-tertiary-100: #503300;
@@ -71,20 +71,6 @@
   --global-white-A30: #ffffff4d;
   --global-white-A40: #ffffff66;
   --global-white-A50: #ffffff80;
-
-  /* ----- PRIMARY ----- */
-  --global-primary-100: #00224f;
-  --global-primary-90: #003478;
-  --global-primary-80: #00224f;
-  --global-primary-70: #0058c9;
-  --global-primary-60: #056cf2;
-  --global-primary-50: #328bff;
-  --global-primary-40: #5fa4ff;
-  --global-primary-30: #8cbeff;
-  --global-primary-20: #b9d7ff;
-  --global-primary-10: #e6f1ff;
-  --global-primary-5: #f1f7fe;
-  --global-primary-90-A30: #0034784d;
 
   /* ----- FUNCTIONAL-COLORS ----- */
 

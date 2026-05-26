@@ -1,7 +1,7 @@
 /* ---- LIGHT MODE (por defecto) ---- */
 :root {
   /* ----- NEUTRAL-COLORS ----- */
-  --surface: var(--global-primary-5);
+  --surface: var(--global-primary-);
   --surface-bright: var(--global-white);
   --surface-dim: var(--global-primary-10);
   --on-surface: var(--global-gray-100);
