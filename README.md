@@ -30,8 +30,13 @@ Este repositorio contiene la implementación del sistema de diseño para **[clie
 ## Instalación
 
 ```bash
-git clone [URL del repositorio]
-cd [nombre-del-proyecto]
+# Clona el repositorio
+git clone https://github.com/Lalafe03/cliente-prueba.git
+
+# Asegúrate de estar en la carpeta del proyecto
+cd cliente-prueba
+
+# Instala las dependencias
 npm install
 ```
 
@@ -48,7 +53,7 @@ src/
 │   ├── global.css                ← escala de colores, spacing, radius del proyecto
 │   ├── theme.css                 ← colores con light y dark mode
 │   └── typography.css            ← fuente, tamaños y alturas de línea
-└── components/                   ← componentes extra específicos de este proyecto
+└── components/                   ← componentes extra específicos de este proyecto y archivos para visualización en storybook
 ```
 
 ## Storybook
