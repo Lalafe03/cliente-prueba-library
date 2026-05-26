@@ -34,7 +34,7 @@ Este repositorio contiene la implementación del sistema de diseño para **[clie
 git clone https://github.com/Lalafe03/cliente-prueba-library.git
 
 # Asegúrate de estar en la carpeta del proyecto
-cd cliente-prueba
+cd cliente-prueba-library
 
 # Instala las dependencias
 npm install
