@@ -1,0 +1,69 @@
+:root {
+  /* ----- FONTS ----- */
+  --font-primary: "Poppins", sans-serif;
+
+  /* ----- WEIGHTS ----- */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ----- SIZE ----- */
+  --font-size-label: 10px;
+  --font-size-p2: 12px;
+  --font-size-p1: 14px;
+  --font-size-h6: 16px;
+  --font-size-h5: 18px;
+  --font-size-h4: 20px;
+  --font-size-h3: 24px;
+  --font-size-h2: 32px;
+  --font-size-h1: 40px;
+
+  /* ----- HEIGHT ----- */
+  --font-height-xs: 12px;
+  --font-height-sm: 16px;
+  --font-height-md: 24px;
+  --font-height-lg: 32px;
+  --font-height-xl: 40px;
+  --font-height-xxl: 48px;
+  --font-height-hg: 72px;
+}
+
+/* ----- COMBINACIONES SIZE + HEIGHT ----- */
+.text--label {
+  font-size: var(--font-size-label);
+  line-height: var(--font-height-sm);
+}
+.text--p2 {
+  font-size: var(--font-size-p2);
+  line-height: var(--font-height-sm);
+}
+.text--p1 {
+  font-size: var(--font-size-p1);
+  line-height: var(--font-height-md);
+}
+.text--h6 {
+  font-size: var(--font-size-h6);
+  line-height: var(--font-height-md);
+}
+.text--h5 {
+  font-size: var(--font-size-h5);
+  line-height: var(--font-height-md);
+}
+.text--h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--font-height-lg);
+}
+.text--h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--font-height-lg);
+}
+.text--h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--font-height-xl);
+}
+.text--h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--font-height-xxl);
+}

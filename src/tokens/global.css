@@ -1,0 +1,286 @@
+:root {
+  /* ----- COLORS ----- */
+
+  /* ----- PRIMARY ----- */
+  --global-primary-100: #00224f;
+  --global-primary-90: #003478;
+  --global-primary-80: #0046a0;
+  --global-primary-70: #0058c9;
+  --global-primary-60: #056cf2;
+  --global-primary-50: #328bff;
+  --global-primary-40: #5fa4ff;
+  --global-primary-30: #8cbeff;
+  --global-primary-20: #b9d7ff;
+  --global-primary-10: #e6f1ff;
+  --global-primary-5: #f1f7fe;
+  --global-primary-90-A30: #0034784d;
+
+  /* ----- SECONDARY ----- */
+  --global-secondary-100: #0f4c5c;
+  --global-secondary-90: #1f6a7e;
+  --global-secondary-80: #348aa0;
+  --global-secondary-70: #4faac2;
+  --global-secondary-60: #70cce4;
+  --global-secondary-50: #92e8ff;
+  --global-secondary-40: #aaedff;
+  --global-secondary-30: #c3f2ff;
+  --global-secondary-20: #dbf7ff;
+  --global-secondary-10: #f4fcff;
+  --global-secondary-5: #fafeff;
+  --global-secondary-10-A40: #f4fcff66;
+  --global-secondary-100-A70: #4faac2b3;
+
+  /* ----- TERTIARY ----- */
+  --global-tertiary-100: #503300;
+  --global-tertiary-90: #724800;
+  --global-tertiary-80: #945e00;
+  --global-tertiary-70: #b67504;
+  --global-tertiary-60: #d88f12;
+  --global-tertiary-50: #faab23;
+  --global-tertiary-40: #ffc055;
+  --global-tertiary-30: #ffd286;
+  --global-tertiary-20: #ffe5b8;
+  --global-tertiary-10: #fff7e9;
+  --global-tertiary-5: #fffbf3;
+  --global-tertiary-50-A40: #faab2366;
+
+  /* ----- GRAY ----- */
+  --global-gray-100: #252c2e;
+  --global-gray-90: #343d40;
+  --global-gray-80: #4b5659;
+  --global-gray-70: #636f73;
+  --global-gray-60: #7b898c;
+  --global-gray-50: #95a2a6;
+  --global-gray-40: #b0bcbf;
+  --global-gray-30: #ccd6d9;
+  --global-gray-20: #e9f0f2;
+  --global-gray-10: #eef2f3;
+  --global-gray-5: #f3f4f4;
+  --global-gray-100-A5: #252c2e0d;
+  --global-gray-100-A10: #252c2e1a;
+  --global-gray-100-A15: #252c2e26;
+  --global-gray-100-A20: #252c2e33;
+
+  /* ----- BASICS ----- */
+  --global-white: #ffffff;
+  --global-black: #000000;
+  --global-white-A10: #ffffff1a;
+  --global-white-A15: #ffffff26;
+  --global-white-A20: #ffffff33;
+  --global-white-A25: #ffffff40;
+  --global-white-A30: #ffffff4d;
+  --global-white-A40: #ffffff66;
+  --global-white-A50: #ffffff80;
+
+  /* ----- PRIMARY ----- */
+  --global-primary-100: #00224f;
+  --global-primary-90: #003478;
+  --global-primary-80: #00224f;
+  --global-primary-70: #0058c9;
+  --global-primary-60: #056cf2;
+  --global-primary-50: #328bff;
+  --global-primary-40: #5fa4ff;
+  --global-primary-30: #8cbeff;
+  --global-primary-20: #b9d7ff;
+  --global-primary-10: #e6f1ff;
+  --global-primary-5: #f1f7fe;
+  --global-primary-90-A30: #0034784d;
+
+  /* ----- FUNCTIONAL-COLORS ----- */
+
+  /* ----- BLUE ----- */
+  --global-blue-100: #0b2a46;
+  --global-blue-90: #10426a;
+  --global-blue-80: #0c4e80;
+  --global-blue-70: #095c9b;
+  --global-blue-60: #0a73bf;
+  --global-blue-50: #1793e0;
+  --global-blue-40: #30a6ef;
+  --global-blue-30: #82c8f7;
+  --global-blue-20: #bde0fa;
+  --global-blue-10: #e1f0fd;
+  --global-blue-5: #f1f8fe;
+
+  /* ----- GREEN ----- */
+  --global-green-100: #006948;
+  --global-green-90: #009164;
+  --global-green-80: #02ba80;
+  --global-green-70: #14e3a2;
+  --global-green-60: #2affbc;
+  --global-green-50: #50ffc8;
+  --global-green-40: #77ffd4;
+  --global-green-30: #9dffe0;
+  --global-green-20: #c3ffec;
+  --global-green-10: #e9fff8;
+  --global-green-5: #f4fffb;
+
+  /* ----- YELLOW ----- */
+  --global-yellow-100: #432005;
+  --global-yellow-90: #733f10;
+  --global-yellow-80: #884d0b;
+  --global-yellow-70: #a46304;
+  --global-yellow-60: #ce8d00;
+  --global-yellow-50: #efb703;
+  --global-yellow-40: #ffd012;
+  --global-yellow-30: #ffe343;
+  --global-yellow-20: #fff287;
+  --global-yellow-10: #fffac2;
+  --global-yellow-5: #fefce8;
+
+  /* ----- ORANGE ----- */
+  --global-orange-100: #481600;
+  --global-orange-90: #7c2f0b;
+  --global-orange-80: #983908;
+  --global-orange-70: #bb4a02;
+  --global-orange-60: #e26e00;
+  --global-orange-50: #ff9500;
+  --global-orange-40: #ffb91b;
+  --global-orange-30: #ffcf46;
+  --global-orange-20: #ffe485;
+  --global-orange-10: #fff1c5;
+  --global-orange-5: #fffbea;
+
+  /* ----- RED ----- */
+  --global-red-100: #48000d;
+  --global-red-90: #710014;
+  --global-red-80: #9a031e;
+  --global-red-70: #c31736;
+  --global-red-60: #ec3354;
+  --global-red-50: #ff5b78;
+  --global-red-40: #ff7f96;
+  --global-red-30: #ffa3b3;
+  --global-red-20: #ffc7d1;
+  --global-red-10: #ffebee;
+  --global-red-5: #fff5f6;
+
+  /* ----- PURPLE ----- */
+  --global-purple-100: #5c0f46;
+  --global-purple-90: #7e1f63;
+  --global-purple-80: #a03482;
+  --global-purple-70: #c24fa2;
+  --global-purple-60: #e470c4;
+  --global-purple-50: #ff92e0;
+  --global-purple-40: #ffaae7;
+  --global-purple-30: #ffc3ee;
+  --global-purple-20: #ffdbf5;
+  --global-purple-10: #fff4fc;
+  --global-purple-5: #fff9fd;
+
+  /* ----- SPACING ----- */
+  --global-spacing-none: 0px;
+  --global-spacing-0-25: 2px;
+  --global-spacing-0-5: 4px;
+  --global-spacing-1: 8px;
+  --global-spacing-1-5: 12px;
+  --global-spacing-2: 16px;
+  --global-spacing-2-5: 20px;
+  --global-spacing-3: 24px;
+  --global-spacing-4: 32px;
+  --global-spacing-5: 40px;
+  --global-spacing-6: 48px;
+  --global-spacing-7: 56px;
+  --global-spacing-8: 64px;
+  --global-spacing-9: 72px;
+  --global-spacing-10: 80px;
+  --global-spacing-11: 88px;
+  --global-spacing-12: 96px;
+  --global-spacing-13: 104px;
+  --global-spacing-14: 112px;
+  --global-spacing-15: 120px;
+  --global-spacing-16: 128px;
+  --global-spacing-17: 136px;
+  --global-spacing-18: 144px;
+  --global-spacing-19: 152px;
+  --global-spacing-20: 160px;
+
+  /* ----- PADDING ----- */
+  --global-padding-none: 0px;
+  --global-padding-0-25: 2px;
+  --global-padding-0-5: 4px;
+  --global-padding-1: 8px;
+  --global-padding-1-5: 12px;
+  --global-padding-2: 16px;
+  --global-padding-2-5: 20px;
+  --global-padding-3: 24px;
+  --global-padding-4: 32px;
+  --global-padding-5: 40px;
+  --global-padding-6: 48px;
+  --global-padding-7: 56px;
+  --global-padding-8: 64px;
+  --global-padding-9: 72px;
+  --global-padding-10: 80px;
+  --global-padding-11: 88px;
+  --global-padding-12: 96px;
+  --global-padding-13: 104px;
+  --global-padding-14: 112px;
+  --global-padding-15: 120px;
+  --global-padding-16: 128px;
+  --global-padding-17: 136px;
+  --global-padding-18: 144px;
+  --global-padding-19: 152px;
+  --global-padding-20: 160px;
+
+  /* ----- CORNER-RADIUS ----- */
+  --global-radius-none: 0px;
+  --global-radius-xs: 2px;
+  --global-radius-sm: 4px;
+  --global-radius-md: 8px;
+  --global-radius-md-2: 12px;
+  --global-radius-lg: 16px;
+  --global-radius-lg-2: 20px;
+  --global-radius-xl: 24px;
+  --global-radius-2xl: 32px;
+  --global-radius-3xl: 40px;
+  --global-radius-4xl: 48px;
+  --global-radius-5xl: 56px;
+  --global-radius-6xl: 64px;
+  --global-radius-7xl: 72px;
+  --global-radius-8xl: 80px;
+  --global-radius-9xl: 88px;
+  --global-radius-10xl: 96px;
+  --global-radius-full: 200px;
+
+  /* ----- SIZe ----- */
+  --global-size-none: 0px;
+  --global-size-0-25: 2px;
+  --global-size-0-5: 4px;
+  --global-size-1: 8px;
+  --global-size-1-5: 12px;
+  --global-size-2: 16px;
+  --global-size-2-5: 20px;
+  --global-size-3: 24px;
+  --global-size-4: 32px;
+  --global-size-5: 40px;
+  --global-size-6: 48px;
+  --global-size-7: 56px;
+  --global-size-8: 64px;
+  --global-size-9: 72px;
+  --global-size-10: 80px;
+  --global-size-11: 88px;
+  --global-size-12: 96px;
+  --global-size-13: 104px;
+  --global-size-14: 112px;
+  --global-size-15: 120px;
+  --global-size-16: 128px;
+  --global-size-17: 136px;
+  --global-size-18: 144px;
+  --global-size-19: 152px;
+  --global-size-20: 160px;
+  --global-size-21: 160px;
+  --global-size-22: 160px;
+  --global-size-23: 168px;
+  --global-size-24: 176px;
+  --global-size-23: 184px;
+  --global-size-24: 192px;
+  --global-size-25: 200px;
+  --global-size-26: 208px;
+  --global-size-27: 216px;
+  --global-size-28: 224px;
+  --global-size-29: 232px;
+  --global-size-30: 240px;
+
+  /* ----- INPUT SHARED TOKENS ----- 
+   Corner radius compartido para todos los componentes tipo input.
+   Cambiar este valor afecta todos los inputs del proyecto.        */
+  --input-corner-radius: var(--global-radius-md);
+}
